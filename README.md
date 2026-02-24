@@ -1,20 +1,21 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+BioIdAI – Advanced Compound & Biological ID Finder
+A modern, fast, fully client-side web tool that instantly resolves chemical names, biological entities, and identifiers using AI.
 
-# Run and deploy your AI Studio app
+Live Demo: https://bioidai-luxbj6wqm-rozs-projects-27709bcd.vercel.app
 
-This contains everything you need to run your app locally.
+Features
+Resolve any compound name → PubChem CID, SMILES, InChI, molecular formula
+Biological entity recognition (proteins, genes, pathways, diseases)
+Bulk processing via CSV upload
+Interactive pie chart of result types
+One-click CSV export with full metadata
+100% client-side – no backend, no server, no setup
+Screenshots
+BioIdAI Interface
 
-View your app in AI Studio: https://ai.studio/apps/6aa11719-13a5-4d5e-8b2a-30ebe6f13314
-
-## Run Locally
-
-**Prerequisites:**  Node.js
-
-
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+Quick Start (5 seconds)
+git clone https://github.com/khabatv/BioIdAI.git
+cd BioIdAI
+npm install
+echo VITE_GEMINI_API_KEY=your-gemini-api-key-here > .env
+npm run dev
