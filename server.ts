@@ -77,4 +77,8 @@ async function startServer() {
   });
 }
 
-startServer();
+// START SERVER - REQUIRED FOR RENDER
+startServer().catch(err => {
+  console.error('Server startup failed:', err);
+  process.exit(1);
+});
