@@ -492,7 +492,7 @@ const App: React.FC = () => {
                             <Database className="h-8 w-8 text-white" />
                         </div>
                         <div>
-                            <h1 className="text-3xl font-extrabold tracking-tight text-slate-900">BioIdAI</h1>
+                            <h1 className="text-3xl font-extrabold tracking-tight text-slate-900">ECO-ID</h1>
                             <p className="text-slate-500 font-medium">Precision Biological & Chemical Entity Resolution</p>
                         </div>
                     </div>
@@ -896,7 +896,7 @@ const App: React.FC = () => {
                 <footer className="mt-20 pt-8 border-t border-slate-200 text-center">
                     <div className="flex items-center justify-center space-x-2 text-slate-400 font-bold text-[10px] uppercase tracking-[0.2em]">
                         <Database className="h-3 w-3" />
-                        <span>BioIdAI Research Tool</span>
+                        <span>ECO-ID Research Tool</span>
                         <span className="w-1 h-1 bg-slate-300 rounded-full"></span>
                         <span>v4.5.0-PRO</span>
                     </div>
