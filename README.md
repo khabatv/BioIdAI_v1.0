@@ -50,14 +50,14 @@ Vahabi, K., Barman, M., van Dam, N. M., Witzel, K., Alves, M. F., & Bueno, P. C.
 This project is licensed under the MIT License - see the LICENSE file for details
 
 ### Installation
-```bash
+```
 git clone [https://github.com/khabatv/ECO-ID.git](https://github.com/khabatv/ECO-ID.git)
 cd ECO-ID
 npm install
+```
 
 ### Running Locally
 Create a .env file in the root directory and add the API key for your preferred provider:
-
 ```
 # Provide at least one of the following keys:
 GEMINI_API_KEY=your_gemini_key_here
@@ -71,7 +71,6 @@ TOGETHER_API_KEY=your_together_key_here
 ```
 
 ### Launch the application:
-
 ```
 npm run dev
 ```
