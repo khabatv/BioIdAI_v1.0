@@ -40,6 +40,15 @@ To ensure the transparency and reproducibility of our benchmarks, all raw data a
 * A modern web browser (Chrome, Firefox, Safari, or Edge).
 * An LLM API Key (Google Gemini, OpenAI, or Anthropic).
 
+##  Citation
+If you use ECO-ID in your research, please cite our manuscript:
+
+Vahabi, K., Barman, M., van Dam, N. M., Witzel, K., Alves, M. F., & Bueno, P. C. P. (2026). ECO-ID: A Versatile Tool for Multi-Omics ID Conversion and Annotation with AI-Driven Error Correction. Frontiers in Bioinformatics. DOI: 10.5281/zenodo.19205996
+
+
+## License
+This project is licensed under the MIT License - see the LICENSE file for details
+
 ### Installation
 ```bash
 git clone [https://github.com/khabatv/ECO-ID.git](https://github.com/khabatv/ECO-ID.git)
@@ -56,13 +65,6 @@ Launch the application:
 ```bash
 npm run dev
 
-##  Citation
-If you use ECO-ID in your research, please cite our manuscript:
 
-Vahabi, K., Barman, M., van Dam, N. M., Witzel, K., Alves, M. F., & Bueno, P. C. P. (2026). ECO-ID: A Versatile Tool for Multi-Omics ID Conversion and Annotation with AI-Driven Error Correction. Frontiers in Bioinformatics. DOI: 10.5281/zenodo.19205996
-
-
-## License
-This project is licensed under the MIT License - see the LICENSE file for details
 
 
