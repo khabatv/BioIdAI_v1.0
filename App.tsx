@@ -244,7 +244,7 @@ const ApiKeyStatus: React.FC<{ provider: ApiProvider; apiKey: string }> = ({ pro
     return <span className="px-3 py-1 text-xs font-semibold text-rose-700 bg-rose-50 border border-rose-200 rounded-full flex items-center"><AlertCircle className="h-3 w-3 mr-1" /> Key Required</span>;
 };
 
-const SESSION_STORAGE_KEY = 'bioIdAiSession';
+const SESSION_STORAGE_KEY = 'ecoIdSession';
 
 const App: React.FC = () => {
     // State management
