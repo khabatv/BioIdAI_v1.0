@@ -54,9 +54,3 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 git clone [https://github.com/khabatv/ECO-ID.git](https://github.com/khabatv/ECO-ID.git)
 cd ECO-ID
 npm install
-
-
-
-
-
-
