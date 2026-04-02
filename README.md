@@ -43,7 +43,7 @@ To ensure the transparency and reproducibility of our benchmarks, all raw data a
 ##  Citation
 If you use ECO-ID in your research, please cite our manuscript:
 
-Vahabi, K., Barman, M., van Dam, N. M., Witzel, K., Alves, M. F., & Bueno, P. C. P. (2026). ECO-ID: A Versatile Tool for Multi-Omics ID Conversion and Annotation with AI-Driven Error Correction. Frontiers in Bioinformatics. DOI: 10.5281/zenodo.19205996
+Vahabi, K., Barman, M., van Dam, N. M., Witzel, K., Alves, M. F., & Bueno, P. C. P. (2026). ECO-ID: A Versatile Tool for Multi-Omics ID Conversion and Annotation with AI-Driven Error Correction. DOI: 10.5281/zenodo.19205996. Also Submitted to Frontiers in Bioinformatics.
 
 
 ## License
