@@ -58,7 +58,7 @@ npm install
 ### Running Locally
 Create a .env file in the root directory and add the API key for your preferred provider:
 
-```bash
+```
 # Provide at least one of the following keys:
 GEMINI_API_KEY=your_gemini_key_here
 OPENAI_API_KEY=your_openai_key_here
@@ -68,9 +68,10 @@ COHERE_API_KEY=your_cohere_key_here
 MISTRAL_API_KEY=your_mistral_key_here
 PERPLEXITY_API_KEY=your_perplexity_key_here
 TOGETHER_API_KEY=your_together_key_here
-
+```
 
 ### Launch the application:
 
-```bash
+```
 npm run dev
+```
