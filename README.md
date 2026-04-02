@@ -55,15 +55,7 @@ git clone [https://github.com/khabatv/ECO-ID.git](https://github.com/khabatv/ECO
 cd ECO-ID
 npm install
 
-### Running Locally
-Create a .env file in the root directory:
 
-```bash
-VITE_GEMINI_API_KEY=your_api_key_here
-Launch the application:
-
-```bash
-npm run dev
 
 
 
