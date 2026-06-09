@@ -49,15 +49,37 @@ Vahabi, K., Barman, M., van Dam, N. M., Witzel, K., Alves, M. F., & Bueno, P. C.
 ## License
 This project is licensed under the MIT License - see the LICENSE file for details
 
-### Installation
+## Installation & Setup
+
+### 1. Configure the Environment
+Before mounting or building the application, copy the example environment file and add your custom API keys (such as `GEMINI_API_KEY` or other optional LLM provider keys):
+```bash
+cp .env.example .env
 ```
-git clone [https://github.com/khabatv/ECO-ID.git](https://github.com/khabatv/ECO-ID.git)
-cd ECO-ID
+Ensure that your `.env` is fully prepared and populated **prior** to building the application.
+
+### 2. Install Dependencies
+Install all required Node.js libraries:
+```bash
 npm install
 ```
 
-### Running Locally
-Create a .env file in the root directory and add the API key for your preferred provider:
+### 3. Build Client Assets (Crucial)
+The Express server relies on static SPA files generated during the build step when running in production mode. Run this command **before** starting the production server:
+```bash
+npm run build
+```
+
+### 4. Running the Application
+
+* **Development Mode** (Hot reloading with Vite frontend and tsx backend):
+  ```bash
+  npm run dev
+  ```
+* **Production Mode**:
+  ```bash
+  npm start
+
 ```
 # Provide at least one of the following keys:
 GEMINI_API_KEY=your_gemini_key_here
