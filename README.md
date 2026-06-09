@@ -92,7 +92,3 @@ PERPLEXITY_API_KEY=your_perplexity_key_here
 TOGETHER_API_KEY=your_together_key_here
 ```
 
-### Launch the application:
-```
-npm run dev
-```
